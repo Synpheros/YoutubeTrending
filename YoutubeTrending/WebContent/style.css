@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Black+Ops+One);
+
+div, p, h1, h2, h3, body, head {margin: 0px; padding: 0px;}
+a, table, ol, li, p, h1, h2, h3, h4, ul {font-family: verdana;}
+
+h1, h2 {text-align: center;}
+
+h1 {font-family: Black Ops One; color: red;}
+h2 {text-align: center; font-family: verdana; font-size: small; color: white;}
+
+#map_canvas { width:100%; height:100%; overflow: hidden; position:absolute; z-index: 1; background-color:#fff !important; }
+#paisid {color: white; font-size: medium}
+#listname, #videotitle {color: white; font-size: large; padding-top: 5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+#youtubevideo {margin: 0 auto 0 auto;}
+
+table {color: white; font-size: small; width: 100%; padding: 5px;}
+#videolistcontent > tr {background: rgb(10, 10, 10);}
+#videolistcontent > tr:nth-child(even) {background: rgb(20, 20, 20);}
+#videolistcontent > tr:first-child {background: rgb(30, 30, 30);}
+.numeric {text-align: right;}
+
+a {color: lightgray;}
+a:hover {cursor: hand; color: white;}
+.tabletitle {text-align: center; width: 100%;}
+
+.principal { width:100%; height:100%; position:relative; overflow: hidden;}
+
+.topcontainer { position:absolute; top:0; z-index: 5; width: 100%; }
+.countrycontainer { transition: 1s; position:absolute; top:-50px; z-index: 4; width: 100%; }
+.botcontainer { position:absolute; bottom:0; z-index: 5; width: 100%; }
+.videocontainer { transition: left 1s; position:absolute; left:-580px; z-index: 5; width: 550px; }
+.trendcontainer { transition: right 1s; position:absolute; right:-580px; z-index: 5; width: 550px; }
+
+.reddiv {position:relative; display: block; width: 100%; height: 25px; background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ea6b6b), color-stop(50%,#ea5454), color-stop(51%,#e03535), color-stop(100%,#db1e1e));}
+.greendiv {position:absolute; width: 100%; top:0; left: 0; height: 25px; background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#75ed6d), color-stop(50%,#5ced55), color-stop(51%,#36ed3c), color-stop(51%,#45e234), color-stop(100%,#1edb24)); z-index: 2; display: block; }
+.videorating {position:absolute; width: 100%; font-size: 18px; top:0; left: 0; text-align: center; color: white; font-weight: bold; z-index: 3; display: block; }
+
+.loading { position:absolute; text-align: center; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); display: none; z-index: 6;}
+.loading > div {width: 1px; height: 100%; vertical-align: middle; display: inline-block;}
+.loading img { width: 150px; height: 150px; vertical-align: middle; display: inline-block;}
+
+.topbanner, .countrybanner, .videodiv, .trenddiv, .countrybanner, .botbanner {background-color: #111111; -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.75);}
+.topbanner, .countrybanner, .countrybanner, .botbanner {margin: 0 auto 0 auto;}
+
+.topbanner { width: 500px; height: 50px; border-radius: 0 0 20px 20px;  }
+.countrybanner { width: 200px;height: 25px; border-radius: 0 0 20px 20px; }
+.videodiv { border-radius: 0 20px 20px 0; width: 550px; }
+.videodiv > p {padding: 5px; color: white;}
+.trenddiv { border-radius: 20px 0 0 20px; width: 550px; }
+.countrybanner { width: 200px;height: 25px; border-radius: 0 0 20px 20px; }
+
+.botbanner { padding-top: 5px; width: 300px; height: 30px; bottom:0; border-radius: 20px 20px 0 0; }
+.handy:hover {cursor: hand;}
